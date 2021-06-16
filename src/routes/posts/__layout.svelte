@@ -26,7 +26,7 @@
       {#each posts as post}
         <li><a sveltekit:prefetch href={ `/posts/${post.slug}`}>{post.title}</a></li>
       {/each}
-        <li><a rel="external" href="https://jonellwood.dev">Ellwood</a></li>
+        <!-- <li><a rel="external" href="https://jonellwood.dev">Ellwood</a></li> -->
     </ui>
   </aside>
 </div>

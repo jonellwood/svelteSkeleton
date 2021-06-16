@@ -10,11 +10,12 @@
   <slot />
 </main>
 
-<footer>Copywrite 2021 Ellwood Front End Solutions</footer>
+<footer class="bg-black text-gray-500 font-mono text-center p-7">©️ 2021 Ellwood Front End Solutions</footer>
 
-<style>
+<!-- <style>
   footer {
-    background-color: hotpink;
+    background-color: black;
+    color: grey;
   }
-</style>
+</style> -->
 

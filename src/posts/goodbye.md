@@ -6,7 +6,7 @@ subject: ✌️ out
 date: 06/14/2021
 ---
 
-# {title}
+## {title}
 
 {subject}
 
