@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- <link rel="icon" href="https://fav.farm/💩" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-6779bf5e.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-55eff8e9.js">
+		<link rel="modulepreload" href="/./_app/chunks/preload-helper-9f12a5fd.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-b1aaf5a8.js">
+		<link rel="modulepreload" href="/./_app/pages/posts/__layout.svelte-657524a2.js">
+		<link rel="modulepreload" href="/./_app/chunks/goodbye-31dbaa29.js">
+		<link rel="modulepreload" href="/./_app/chunks/hello-69c3ca6b.js">
+		<link rel="modulepreload" href="/./_app/chunks/started-0599db51.js">
+		<link rel="modulepreload" href="/./_app/pages/posts/about.svelte-80837ddb.js">
+		<link rel="stylesheet" href="/./_app/assets/start-8077b9bf.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-7c1012c9.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-6779bf5e.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/__layout.svelte-b1aaf5a8.js"),
+						import("/./_app/pages/posts/__layout.svelte-657524a2.js"),
+						import("/./_app/pages/posts/about.svelte-80837ddb.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/posts/about",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header><h1>Welcome</h1>
+  <nav><a href="/">Home</a>
+    <a href="/about">About Us</a>
+    <a href="/posts">Posts</a></nav></header>
+
+
+
+<main class="bg-blue-400"><div><h3>About this blog</h3>
+  <aside><h5>Archive</h5>
+    <ui><li><a sveltekit:prefetch href="/posts/goodbye">Goodbye</a></li><li><a sveltekit:prefetch href="/posts/hello">Hello</a></li><li><a sveltekit:prefetch href="/posts/started">Started</a></li>
+        <li><a rel="external" href="https://jonellwood.dev">Ellwood</a></li></ui></aside></div></main>
+
+<footer class="svelte-1lg7wa">Copywrite 2021 Ellwood Front End Solutions</footer>
+
+
+
+	
+</div>
+	</body>
+</html>
