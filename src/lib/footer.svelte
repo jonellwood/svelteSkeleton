@@ -1,12 +1,12 @@
-<script>
+<!-- <script>
   let src = 'src/lib/Svelte_Logo.svg.png';
-</script>
+</script> -->
 
 
 <footer>
   <span class="generic">Generic Front End Solutions you can probably just do yourself.</span>
   <span class="siteInfo">Site built with Sveltekit
-    <img class="logo" src = {src} alt="Logo.">
+    <!-- <img class="logo" src = {src} alt="Logo."> -->
   </span>
   <span class="copywrite">©️ Ellwood Front End Solutions 2021</span>
 </footer>
