@@ -2,18 +2,17 @@
 
 <script>
   import Icon from 'fa-svelte'
-  import { faCircle } from '@fortawesome/free-solid-svg-icons/faCircle'
+  import { faCircle, svgPathData } from '@fortawesome/free-solid-svg-icons/faCircle'
 
   let icon = faCircle;
+  let src = 'src/lib/Svelte_Logo.svg.png';
 </script>
 
 
 <footer>
   <span class="generic">Generic Front End Solutions you can probably just do yourself.</span>
   <span class="siteInfo">Site built with Sveltekit
-    <Icon icon={icon}>
-    </Icon>
-    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/32px-Svelte_Logo.svg.png" alt="logo /> -->
+    <img class="logo" src = {src} alt="Logo.">
   </span>
   <span class="copywrite">©️ Ellwood Front End Solutions 2021</span>
 </footer>
@@ -41,5 +40,8 @@
 
   .copywrite{
     padding-bottom: 15px;
+  }
+  .logo{
+    height: 20px;
   }
 </style>

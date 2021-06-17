@@ -22,6 +22,7 @@
   header{
     box-sizing: border-box;
     background-color: black;
+    margin: 0;
     font-family: sans-serif;
     color: grey;
     font-size: x-large;
