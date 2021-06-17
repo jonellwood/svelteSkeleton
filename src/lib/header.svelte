@@ -9,22 +9,39 @@
 </script>
 
 
-<header class="bg-black text-gray-700 font-mono p-8 text-4xl">
+<header>
   <nav>
-    <a class="hover:text-gray-200" href="/">Home</a>
-    <a class="hover:text-gray-200" href="/about">About Me</a>
-    <a class="hover:text-gray-200" href="/posts">Posts</a>
-    <button type="button" class="darkButton text-base object-right-top">Dark Mode</button>
+    <a href="/">Home</a>
+    <a href="/about">About Me</a>
+    <a href="/posts">Posts</a>
+    <button type="button">Dark Mode</button>
   </nav>
 </header>
 
-
-
-<!-- <style lang="scss">
+<style>
   header{
-    background-color: hotpink;
-    nav {
-      background: blue;
-    }
+    box-sizing: border-box;
+    background-color: black;
+    font-family: sans-serif;
+    color: grey;
+    font-size: x-large;
+    padding: 2%;
   }
-</style> -->
+  header a{
+    padding: 5px;
+    text-decoration: none;
+    color: gray;
+  }
+  header a:hover{
+    color: lightgray;
+  }
+  header button{
+    background-color: black;
+    color: gray;
+    padding-left: 45px;
+    border-color: darkgray;
+    border-radius: 7px;
+  }
+
+</style>
+

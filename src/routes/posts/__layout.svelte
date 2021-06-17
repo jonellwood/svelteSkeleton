@@ -30,3 +30,15 @@
     </ui>
   </aside>
 </div>
+
+<style>
+  a{
+    text-decoration: none;
+    color: grey;
+  }
+  li{
+    list-style: none;
+    padding-left: 1em
+  }
+</style>
+
