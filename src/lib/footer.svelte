@@ -2,7 +2,7 @@
 
 <script>
   import Icon from 'fa-svelte'
-  import { faCircle, svgPathData } from '@fortawesome/free-solid-svg-icons/faCircle'
+  import { faCircle } from '@fortawesome/free-solid-svg-icons/faCircle'
 
   let icon = faCircle;
   let src = 'src/lib/Svelte_Logo.svg.png';
