@@ -6,7 +6,7 @@ subject: getting started
 date: 06/18/2021
 ---
 
-# {title}
+## {title}
 
 This is a post all about {subject} with building web stuff.
 

@@ -15,6 +15,8 @@
 
 <style>
   main{
+    box-sizing: border-box;
+    margin: 0;
     background-color: black;
     color: gray;
   }

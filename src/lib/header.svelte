@@ -1,9 +1,7 @@
 <script>
-  function alert(){
-    alert("REALLY!!");
-  }
+
   function handleClick() {
-    document.getElementsByClassName("darkButton").onclick = alert();
+     alert("Really bro?");
   }
   // darkButton.addEventListener('click', handleClick);
 </script>
@@ -13,8 +11,8 @@
   <nav>
     <a href="/">Home</a>
     <a href="/about">About Me</a>
-    <a href="/posts">Posts</a>
-    <button type="button">Dark Mode</button>
+    <a href="/posts">Projects</a>
+    <button on:click={e => {alert("REALLY?? Dark is already set to 11 😄")} } >Dark Mode</button>
   </nav>
 </header>
 

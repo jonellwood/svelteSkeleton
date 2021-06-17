@@ -19,6 +19,9 @@
 
 <style>
   footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     display: grid;
     grid-template-rows: 2fr 1fr 1fr;
     background-color: black;
@@ -33,6 +36,7 @@
     font-size: x-large;
     text-align: justify;
     padding-left: 25px;
+    padding-right: 25px;
   }
   .siteInfo{
     font-size: smaller;

@@ -18,10 +18,10 @@
   export let posts;
 </script>
 
-<div>
+<div class="posts">
   <slot />
-  <aside>
-    <h5>Archive</h5>
+  <aside class="projectList">
+    <h5>Project List</h5>
     <ui>
       {#each posts as post}
         <li><a sveltekit:prefetch href={ `/posts/${post.slug}`}>{post.title}</a></li>
@@ -32,13 +32,29 @@
 </div>
 
 <style>
+  .posts{
+    padding: 1.5rem;
+  }
+  .projectList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
   a{
     text-decoration: none;
     color: grey;
   }
+
   li{
     list-style: none;
-    padding-left: 1em
+    padding: .5em;
+    padding-left: 1.5rem;
   }
+  h5{
+    font-size: larger;
+    padding: 1.5rem;
+  }
+
 </style>
 
