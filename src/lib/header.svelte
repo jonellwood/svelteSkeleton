@@ -18,6 +18,7 @@
 
 <style>
   header{
+    text-align: center;
     box-sizing: border-box;
     background-color: black;
     margin: 0;

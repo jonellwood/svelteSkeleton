@@ -28,7 +28,6 @@
   }
   .generic{
     font-size: x-large;
-    text-align: justify;
     padding-left: 25px;
     padding-right: 25px;
   }
