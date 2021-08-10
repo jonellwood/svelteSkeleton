@@ -16,9 +16,9 @@
 
   <p>
     Tech I feel comfortable with:
-      <span class="logo">
+      <!-- <span class="logo">
         <img class="little-logo" src="../static/Logos_Image.gif" alt='svelte' >
-      </span>
+      </span> -->
   <br>
     Tech I am still figuring out:
   </p>
