@@ -10,9 +10,9 @@
 <header>
   <nav>
     <a href="/">Home</a>
-    <a href="/about">About Me</a>
+    <a href="/about">About</a>
     <a href="/posts">Projects</a>
-    <button on:click={e => {alert("REALLY?? Dark is already set to 11 😄")} } >Dark Mode</button>
+    <!-- <button on:click={e => {alert("REALLY?? Dark is already set to 11 😄")} } >Dark Mode</button> -->
   </nav>
 </header>
 

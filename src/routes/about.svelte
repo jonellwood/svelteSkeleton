@@ -11,15 +11,19 @@
 
   <p>
 
-    I currently work as network administrator - slash anything involving a computer - for a great organization. During my time I have been able to develop a little bit of skill in at least a hundred areas related to tech. It is that which brought me to the joy and pain that is JavaScript. I have been able to apply what I have learned to save my employer money, provide a value added service to customers, or often times both.
+    I currently work as an IT Director of a one man deapartment; for a great organization. During my time I have been able to develop a little bit of skill in at least a hundred areas related to tech. It is that which brought me to the joy and pain that is JavaScript. I have been able to apply what I have learned to save my employer money, provide a value added service to customers, or often times both.
   </p>
 
   <p>
-    I hope to one day have the experience and skills to move into a full time web development role where I can work on improving that specific skill set full time.
+    Tech I feel comfortable with:
+      <span class="logo">
+        <img class="little-logo" src="../static/Logos_Image.gif" alt='svelte' >
+      </span>
+  <br>
+    Tech I am still figuring out:
   </p>
 </article>
 <style>
-
   article{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -41,5 +45,15 @@
     margin: 20px;
     border: gray 2px solid;
     border-radius: 7px;
+    line-height: 150%;
   }
+  .logo{
+    display: flexbox;
+    flex-direction: column;
+  }
+  .little-logo{
+    height: 30%;
+    margin: 10px;
+  }
+
 </style>
