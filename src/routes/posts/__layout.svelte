@@ -26,7 +26,7 @@
       {#each posts as post}
       <div class="card">
         <p><a sveltekit:prefetch href={ `/posts/${post.slug}`}>{post.title} </a></p>
-        <p>{post.date} {post.subject}</p>
+        <p>{post.subject}</p>
         <p>{post.exerpt}</p>
       </div>
       {/each}
@@ -67,8 +67,13 @@
   }
   .card-wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-flow: row;
+  }
+  @media only screen and (max-width: 980px) {
+    .card-wrapper{
+    grid-template-columns: 1fr 1fr;
+    }
   }
   @media only screen and (max-width: 680px) {
     .card-wrapper{
