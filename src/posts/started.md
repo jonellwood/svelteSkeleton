@@ -4,6 +4,7 @@ slug: started
 author: Jon Ellwood
 subject: getting started
 date: 06/18/2021
+exerpt: This is a post where I was testing the subject variable in markdown.
 ---
 
 ## {title}

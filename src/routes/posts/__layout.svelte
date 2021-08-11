@@ -19,41 +19,61 @@
 </script>
 
 <div class="posts">
+  <h1>Project List</h1>
   <slot />
   <aside class="projectList">
-    <h5>Project List</h5>
-    <ui>
+    <div class="card-wrapper">
       {#each posts as post}
-        <li><a sveltekit:prefetch href={ `/posts/${post.slug}`}>{post.title}</a></li>
+      <div class="card">
+        <p><a sveltekit:prefetch href={ `/posts/${post.slug}`}>{post.title} </a></p>
+        <p>{post.date} {post.subject}</p>
+        <p>{post.exerpt}</p>
+      </div>
       {/each}
         <!-- <li><a rel="external" href="https://jonellwood.dev">Ellwood</a></li> -->
-    </ui>
+    </div>
   </aside>
 </div>
 
 <style>
+  .card{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1em;
+    background-color: lightgray;
+    margin: 20px;
+    border: gray 2px solid;
+    border-radius: 7px;
+    line-height: 150%;
+    box-shadow: 2px 2px 5px 2px lightslategray ;
+    color: black;
+
+  }
+  .card:hover{
+    box-shadow: 2px 2px 5px yellow;
+    background-color: whitesmoke;
+    transition: all 0.5s ease .5s;
+  }
   .posts{
     padding: 1.5rem;
   }
-  .projectList{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-  }
-
   a{
     text-decoration: none;
-    color: grey;
+    color: black;
   }
 
-  li{
-    list-style: none;
-    padding: .5em;
-    padding-left: 1.5rem;
+  h1{
+    text-align: center;
+    padding: 20px;
   }
-  h5{
-    font-size: larger;
-    padding: 1.5rem;
+  .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+  }
+  @media only screen and (max-width: 680px) {
+    .card-wrapper{
+    grid-template-columns: 1fr;
+    }
   }
 
 </style>

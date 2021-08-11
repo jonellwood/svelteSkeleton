@@ -1,8 +1,10 @@
 
-<img
+<!-- <img
   src="https://res.cloudinary.com/drwfft7zs/image/upload/v1628611739/jonellwood%20dot%20dev/jon_ellwood_cinsc4.svg"
-  alt="jon ellwood">
-
+  alt="jon ellwood"> -->
+<img
+  src="https://res.cloudinary.com/drwfft7zs/image/upload/c_scale,h_741/v1628700738/jonellwood%20dot%20dev/logos-in-row_rbvvfr.png"
+  alt="list of logos">
 <article>
 
 
@@ -15,12 +17,8 @@
   </p>
 
   <p>
-    Tech I feel comfortable with:
-      <!-- <span class="logo">
-        <img class="little-logo" src="../static/Logos_Image.gif" alt='svelte' >
-      </span> -->
-  <br>
-    Tech I am still figuring out:
+    Something should go here
+
   </p>
 </article>
 <style>
@@ -36,7 +34,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    width: 80%;
   }
   p{
     /* padding: 1em; */
@@ -46,6 +44,13 @@
     border: gray 2px solid;
     border-radius: 7px;
     line-height: 150%;
+    box-shadow: 2px 2px 5px 2px lightslategray ;
+
+  }
+  p:hover{
+    box-shadow: 2px 2px 5px yellow;
+    background-color: whitesmoke;
+    transition: all 0.5s ease .5s;
   }
   .logo{
     display: flexbox;
@@ -54,6 +59,16 @@
   .little-logo{
     height: 30%;
     margin: 10px;
+  }
+  @media only screen and (max-width: 768px) {
+    article{
+    grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    article{
+    grid-template-columns: 1fr;
+    }
   }
 
 </style>

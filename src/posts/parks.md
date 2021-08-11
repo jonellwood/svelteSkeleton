@@ -4,6 +4,7 @@ slug: parks
 author: Jon Ellwood
 subject: Parks Blog
 date: 05/13/2021
+exerpt: This is a post about a Gatsby site with Sanity CMS.
 ---
 
 ## {title}
