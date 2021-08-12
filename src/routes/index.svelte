@@ -5,7 +5,7 @@
   import { onMount } from 'svelte';
 
 	let visible = false;
-  onMount(() => visible = true);
+  onMount(() => visible = true), setTimeout(() => visible = false, 5000);
 
 </script>
 
@@ -21,46 +21,20 @@
 	</div>
 {/if}
 
-<!-- {#if !visible}
-  <img
-    src="https://res.cloudinary.com/drwfft7zs/image/upload/v1628611739/jonellwood%20dot%20dev/jon_ellwood_cinsc4.svg"
-    alt="jon ellwood">
-  <article>
-    <p>I want to become a big boy web dev one day. I am interesting in anything related to JavaScript and any tech around it. I am self taught - although I never cared for that term as I feel it does not give credit to content creators that I have learned from. I devour as much information and knowledge as I can to improve my skills.
-  </p>
-  </article>
-{/if} -->
-
-<!-- <label>
-	<input type="checkbox" bind:checked={visible}>
-	learn more
-</label> -->
-
+{#if !visible}
+  <div>
+    <p>I AM A P TAG BEEEEOCH</p>
+  </div>
+{/if}
 
 </main>
 
 <style>
   main{
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: black;
     color: gray;
   }
-  h1{
-    font-size:x-large;
-    padding: 1em;
-  }
-  p{
-    padding: 1em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-
-  }
-
-	label {
-		/* position: absolute; */
-		top: 1em;
-		left: 1em;
-	}
 
 	.centered {
 		font-size: 20vw;

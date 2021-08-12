@@ -1,3 +1,7 @@
+<script>
+import Footer from '$lib/footer.svelte';
+
+</script>
 
 <!-- <img
   src="https://res.cloudinary.com/drwfft7zs/image/upload/v1628611739/jonellwood%20dot%20dev/jon_ellwood_cinsc4.svg"
@@ -21,6 +25,9 @@
 
   </p>
 </article>
+
+<Footer />
+
 <style>
   article{
     display: grid;

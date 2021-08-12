@@ -11,7 +11,7 @@
   <slot />
 </main>
 
-<Footer />
+<!-- <Footer /> -->
 
 <style>
   main{
@@ -20,6 +20,7 @@
     background-color: black;
     color: gray;
   }
+
 
 </style>
 

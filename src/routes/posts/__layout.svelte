@@ -15,6 +15,8 @@
 </script>
 
 <script>
+import Footer from '$lib/footer.svelte';
+
   export let posts;
 </script>
 
@@ -36,7 +38,7 @@
     </div>
   </aside>
 </div>
-
+<Footer />
 <style>
   a{
     text-decoration: none;
