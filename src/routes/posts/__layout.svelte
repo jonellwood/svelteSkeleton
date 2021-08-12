@@ -19,7 +19,8 @@
 </script>
 
 <div class="posts">
-  <h1>Project List</h1>
+  <h1><a href='/posts'>My Projects </a></h1>
+
   <slot />
   <aside class="projectList">
     <div class="card-wrapper">
@@ -28,6 +29,7 @@
         <p><a sveltekit:prefetch href={ `/posts/${post.slug}`}>{post.title} </a></p>
         <p>{post.subject}</p>
         <p>{post.exerpt}</p>
+
       </div>
       {/each}
         <!-- <li><a rel="external" href="https://jonellwood.dev">Ellwood</a></li> -->
@@ -36,6 +38,16 @@
 </div>
 
 <style>
+  a{
+    text-decoration: none;
+    color: grey;
+  }
+  .posts{
+    padding: 1.5rem;
+    margin-left: 2em;
+    margin-right: 2em;
+    border: red solid 5px;
+  }
   .card{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 1em;
@@ -46,19 +58,16 @@
     line-height: 150%;
     box-shadow: 2px 2px 5px 2px lightslategray ;
     color: black;
-
   }
   .card:hover{
     box-shadow: 2px 2px 5px yellow;
     background-color: whitesmoke;
     transition: all 0.5s ease .5s;
   }
-  .posts{
-    padding: 1.5rem;
-  }
-  a{
-    text-decoration: none;
+  .card a{
     color: black;
+    font-size: larger;
+    font-weight: bolder;
   }
 
   h1{

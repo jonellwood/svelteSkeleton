@@ -52,14 +52,7 @@
     background-color: whitesmoke;
     transition: all 0.5s ease .5s;
   }
-  .logo{
-    display: flexbox;
-    flex-direction: column;
-  }
-  .little-logo{
-    height: 30%;
-    margin: 10px;
-  }
+
   @media only screen and (max-width: 768px) {
     article{
     grid-template-columns: 1fr 1fr;
