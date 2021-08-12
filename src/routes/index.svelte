@@ -23,7 +23,8 @@
 
 {#if !visible}
   <div>
-    <p>I AM A P TAG BEEEEOCH</p>
+    <p>I AM A P TAG</p>
+    <p>I appear after 5 seconds so the cool animation can play. I should have something to say here for sure. Somehting of value.</p>
   </div>
 {/if}
 
