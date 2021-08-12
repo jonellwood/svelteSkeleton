@@ -8,7 +8,7 @@
   <span class="siteInfo">Site built with Sveltekit
     <!-- <img class="logo" src = {src} alt="Logo."> -->
   </span>
-  <span class="copywrite">©️ Ellwood Front End Solutions 2021</span>
+  <span class="copywrite">©️ Jon Ellwood 2021</span>
 </footer>
 
 <style>

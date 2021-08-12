@@ -46,7 +46,7 @@
     padding: 1.5rem;
     margin-left: 2em;
     margin-right: 2em;
-    border: red solid 5px;
+
   }
   .card{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

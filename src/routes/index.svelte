@@ -57,7 +57,7 @@
   }
 
 	label {
-		position: absolute;
+		/* position: absolute; */
 		top: 1em;
 		left: 1em;
 	}
