@@ -22,18 +22,20 @@
     box-sizing: border-box;
     /* background-color: black; */
     margin: 0;
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: grey;
     font-size: x-large;
+    font-weight: bolder;
     padding: 2%;
   }
   header a{
     padding: 5px;
     text-decoration: none;
-    color: gray;
+    color: black;
   }
   header a:hover{
     color: #4169E1;
+    transition: all 0.25s ease .25s;
   }
 
 </style>

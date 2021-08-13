@@ -21,7 +21,7 @@ import Footer from '$lib/footer.svelte';
 </script>
 
 <div class="posts">
-  <h1><a href='/posts'>My Projects </a></h1>
+  <!-- <h1><a href='/posts'>My Projects </a></h1> -->
 
   <slot />
   <aside class="projectList">
@@ -53,12 +53,14 @@ import Footer from '$lib/footer.svelte';
   .card{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 1em;
-    background-color: lightgray;
+    background-color: whitesmoke;
     margin: 20px;
     border: #4169e1 2px solid;
     border-radius: 7px;
     line-height: 150%;
-    box-shadow: 2px 2px 5px 2px #ffcc00 ;
+    /* box-shadow: 2px 2px 5px 2px #ffcc00 ; */
+    box-shadow: 4px 4px 8px black ;
+
     color: black;
   }
   .card:hover{
