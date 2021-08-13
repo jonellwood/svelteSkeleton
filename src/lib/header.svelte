@@ -20,7 +20,7 @@
   header{
     text-align: center;
     box-sizing: border-box;
-    background-color: black;
+    /* background-color: black; */
     margin: 0;
     font-family: sans-serif;
     color: grey;
@@ -33,14 +33,7 @@
     color: gray;
   }
   header a:hover{
-    color: lightgray;
-  }
-  header button{
-    background-color: black;
-    color: gray;
-    padding-left: 45px;
-    border-color: darkgray;
-    border-radius: 7px;
+    color: #4169E1;
   }
 
 </style>

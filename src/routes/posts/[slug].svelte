@@ -15,7 +15,7 @@
       // };
       return {
         status: 404,
-        error: "We cant find that shit you requested! Sorry homie"
+        error: "Oh Smurf it all! We cant find that smurf you requested! 🤡"
       };
     }
   }

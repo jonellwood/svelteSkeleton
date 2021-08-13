@@ -5,7 +5,7 @@ author: Jon Ellwood
 subject: How I used Netlify to avoid walking
 date: 06/14/2021
 exerpt: A $12 domain saved us around $1440 per year - but more importantly saved me from using stairs!
-
+tech: HTML, CSS, JavaScript
 ---
 
 # {title}
@@ -31,3 +31,7 @@ Additionally, any other lobby display in the organization can also easily access
 My next step might be to use a smart TV with a browser to access the display site and remove the old Linux box from the equation 🤔…..
 
 You can see whatever is in the lobby at the moment 👉 <a href="https://altardsugarskull.com">here</a> (the domain name was purchased on spec and wasn’t used so it was just laying around doing nothing - don’t judge)
+
+UPDATE 08/13/2021 - I did almost the exact same thing for another department in the city with the same nice results. Plus I got a cool domain name to boot. 👉 <a href="https://hanahan.codes">Link</a>
+
+Tech Used: {tech}

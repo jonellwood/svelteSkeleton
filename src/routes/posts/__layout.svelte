@@ -55,10 +55,10 @@ import Footer from '$lib/footer.svelte';
     padding: 1em;
     background-color: lightgray;
     margin: 20px;
-    border: gray 2px solid;
+    border: #4169e1 2px solid;
     border-radius: 7px;
     line-height: 150%;
-    box-shadow: 2px 2px 5px 2px lightslategray ;
+    box-shadow: 2px 2px 5px 2px #ffcc00 ;
     color: black;
   }
   .card:hover{

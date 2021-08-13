@@ -17,7 +17,7 @@
   main{
     box-sizing: border-box;
     margin: 0;
-    background-color: black;
+    /* background-color: #FFCC0030; */
     color: gray;
   }
 

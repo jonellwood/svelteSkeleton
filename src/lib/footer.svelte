@@ -18,7 +18,7 @@
     width: 100%;
     display: grid;
     grid-template-rows: 2fr 1fr 1fr;
-    background-color: black;
+    /* background-color: #FFCC0030; */
     color: gray;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;

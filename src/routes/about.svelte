@@ -33,7 +33,7 @@ import Footer from '$lib/footer.svelte';
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: black;
+    /* background-color: #4169e190; */
     color: black;
 
   }
@@ -46,12 +46,12 @@ import Footer from '$lib/footer.svelte';
   p{
     /* padding: 1em; */
     padding: 1em;
-    background-color: lightgray;
+    background-color: #4169e160;
     margin: 20px;
-    border: gray 2px solid;
+    border: #4169e1 4px solid;
     border-radius: 7px;
     line-height: 150%;
-    box-shadow: 2px 2px 5px 2px lightslategray ;
+    box-shadow: 2px 2px 5px 2px #ffcc00 ;
 
   }
   p:hover{
