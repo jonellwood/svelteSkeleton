@@ -34,7 +34,7 @@ import Footer from '$lib/footer.svelte';
     grid-template-columns: 1fr 1fr 1fr;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* background-color: #4169e190; */
-    color: black;
+    color: #D1e8e2;
 
   }
   img{
@@ -46,17 +46,18 @@ import Footer from '$lib/footer.svelte';
   p{
     /* padding: 1em; */
     padding: 1em;
-    background-color: #4169e160;
+    background-color: #d9b08c;
     margin: 20px;
-    border: #4169e1 4px solid;
+    border: #116466 4px solid;
     border-radius: 7px;
     line-height: 150%;
-    box-shadow: 2px 2px 5px 2px #ffcc00 ;
+    box-shadow: 2px 2px 5px 2px #ffcb9a ;
 
   }
   p:hover{
-    box-shadow: 2px 2px 5px yellow;
+    box-shadow: 2px 2px 5px #d1e8e2;
     background-color: whitesmoke;
+    color: #2c3531;
     transition: all 0.5s ease .5s;
   }
 

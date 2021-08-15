@@ -12,6 +12,7 @@
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/posts">Projects</a>
+    <a href="/timeline">Timeline</a>
     <!-- <button on:click={e => {alert("REALLY?? Dark is already set to 11 😄")} } >Dark Mode</button> -->
   </nav>
 </header>
@@ -34,7 +35,8 @@
     color: black;
   }
   header a:hover{
-    color: #4169E1;
+    color: #D1e8e2;
+    box-shadow: 2px 2px 6px #FCCB9A;
     transition: all 0.25s ease .25s;
   }
 

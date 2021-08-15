@@ -18,7 +18,8 @@
     box-sizing: border-box;
     margin: 0;
     /* background-color: #FFCC0030; */
-    color: gray;
+    /* color: gray; */
+    /* background-color: var(--myGreen, #116466); */
   }
 
 

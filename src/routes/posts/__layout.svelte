@@ -34,7 +34,7 @@ import Footer from '$lib/footer.svelte';
 
       </div>
       {/each}
-        <!-- <li><a rel="external" href="https://jonellwood.dev">Ellwood</a></li> -->
+
     </div>
   </aside>
 </div>
@@ -55,11 +55,10 @@ import Footer from '$lib/footer.svelte';
     padding: 1em;
     background-color: whitesmoke;
     margin: 20px;
-    border: #4169e1 2px solid;
+    border: #d9b08c 2px solid;
     border-radius: 7px;
     line-height: 150%;
-    /* box-shadow: 2px 2px 5px 2px #ffcc00 ; */
-    box-shadow: 4px 4px 8px black ;
+    box-shadow: 4px 4px 8px #FFCB9A;
 
     color: black;
   }

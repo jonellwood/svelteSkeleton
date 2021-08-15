@@ -47,6 +47,8 @@
 </main>
 
 <style>
+
+
   main{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* background-color: #FFCC0030; */
@@ -61,7 +63,9 @@
 		transform: translate(-50%,-50%);
 		font-family: 'Overpass';
 		letter-spacing: 0.12em;
-		color: #676778;
+		color: #2c3531;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffcb9a;
 		font-weight: 400;
 	}
 
@@ -72,14 +76,15 @@
     background-attachment: fixed;
     background-size: contain;
     background-position: 100%;
-    color:black;
+    color: black;
+    font-size: larger;
     height: 500px;
     margin-left: 50px;
     margin-right: 50px;
     padding: 50px;
-    border: 30px solid pink;
+    border: 30px solid #ffcB9a;
     height: 40vh;
-    border: 25px solid #4169e1;
+    border: 25px solid #d1e8e2;
     border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
 
 }
