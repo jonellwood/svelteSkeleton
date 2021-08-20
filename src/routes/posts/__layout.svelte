@@ -53,12 +53,12 @@ import Footer from '$lib/footer.svelte';
   .card{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 1em;
-    background-color: whitesmoke;
+    background-color: #fff;
     margin: 20px;
-    border: #d9b08c 2px solid;
+    border: #ffc600 2px solid;
     border-radius: 7px;
     line-height: 150%;
-    box-shadow: 4px 4px 8px #FFCB9A;
+    box-shadow: 4px 4px 8px #4969e1;
 
     color: black;
   }

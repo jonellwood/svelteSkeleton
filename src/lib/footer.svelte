@@ -18,7 +18,7 @@
     width: 100%;
     display: grid;
     grid-template-rows: 2fr 1fr 1fr;
-    /* background-color: #FFCC0030; */
+    background-color: #fff;
     color: gray;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -37,8 +37,5 @@
 
   .copywrite{
     padding-bottom: 15px;
-  }
-  .logo{
-    height: 20px;
   }
 </style>
