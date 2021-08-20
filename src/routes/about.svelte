@@ -33,9 +33,7 @@ import Footer from '$lib/footer.svelte';
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* background-color: #4169e190; */
-    color: #D1e8e2;
-
+    color: black;
   }
   img{
     display: block;
@@ -46,18 +44,18 @@ import Footer from '$lib/footer.svelte';
   p{
     /* padding: 1em; */
     padding: 1em;
-    background-color: #d9b08c;
+    background-color: #ffff;
     margin: 20px;
-    border: #116466 4px solid;
+    border: #ffc600 4px solid;
     border-radius: 7px;
     line-height: 150%;
-    box-shadow: 2px 2px 5px 2px #ffcb9a ;
+    box-shadow: 2px 2px 5px 2px #4969e1;
 
   }
   p:hover{
-    box-shadow: 2px 2px 5px #d1e8e2;
+    box-shadow: 2px 2px 5px yellow;
     background-color: whitesmoke;
-    color: #2c3531;
+    color: #2e2e2e;
     transition: all 0.5s ease .5s;
   }
 
